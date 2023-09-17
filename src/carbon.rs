@@ -2,7 +2,7 @@ use serde_derive::{Serialize, Deserialize};
 
 #[derive(Serialize, Deserialize, Clone)]
 pub(crate) struct CarbonResponse {
-    pub(crate) data: Vec<Data>
+    pub(crate) data: Data
 }
 #[derive(Serialize, Deserialize, Clone)]
 pub(crate) struct Data {
